@@ -1,7 +1,13 @@
 # JESI Dart Analysis
 
-This package provides lint rules for Dart and Flutter which are used at JESI. For more information on each option,
-see the complete [list of options](https://dart.dev/tools/linter-rules).
+This package provides lint rules for Dart and Flutter which are used at JESI.
+
+For more information on each option, see the complete [list of options](https://dart.dev/tools/linter-rules).
+
+For more information about the core libraries, see the related package:
+
+* [Dart Lints](https://pub.dev/packages/lints)
+* [Flutter Lints](https://pub.dev/packages/flutter_lints)
 
 ## Usage
 
