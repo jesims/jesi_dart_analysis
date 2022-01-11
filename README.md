@@ -19,7 +19,7 @@ dev_dependencies:
   # flutter_lints: '>=1.0.0 <2.0.0' # Add for Flutter
   jesi_dart_analysis:
     git:
-      url: https://github.com/jesi/jesi_dart_analysis.git
+      url: https://github.com/jesims/jesi_dart_analysis.git
       ref: #<tag, branch name, or omit to default to master>
 ```
 
