@@ -1,6 +1,7 @@
 include: package:lints/recommended.yaml
 
 linter:
+  # Note: Ensure rules are replicated where applicable in `analysis_options.flutter.yaml`
   rules:
     - avoid_void_async
     - await_only_futures
@@ -12,6 +13,7 @@ linter:
     - unnecessary_final
 
 analyzer:
+  # Note: Ensure excludes are replicated in `analysis_options.flutter.yaml`
   exclude:
     - '**/*.g.dart'
     - '**/*.reflectable.dart'

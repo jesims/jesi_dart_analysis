@@ -6,8 +6,8 @@ For more information on each option, see the complete [list of options](https://
 
 For more information about the core libraries, see the related package:
 
-* [Dart Lints](https://pub.dev/packages/lints)
-* [Flutter Lints](https://pub.dev/packages/flutter_lints)
+- [Dart Lints](https://pub.dev/packages/lints)
+- [Flutter Lints](https://pub.dev/packages/flutter_lints)
 
 ## Usage
 
@@ -33,7 +33,7 @@ include: package:jesi_dart_analysis/analysis_options.yaml
 include: package:jesi_dart_analysis/analysis_options.flutter.yaml
 ```
 
-This will ensure you always use the latest version of the lints. 
+This will ensure you always use the latest version of the lints.
 
 ## Suppressing Lints
 
@@ -71,7 +71,14 @@ linter:
     prefer_single_quotes: false
 ```
 
+## Maintaining
+
+- Follow [Semantic Versioning](https://semver.org/)
+- Update the `CHANGELOG.md` accordingly
+- When updating linter rules, ensure the rule is changed in both `analysis_options.yaml` and
+  `analysis_options.flutter.yaml`. _Unless the rule pertains exclusively to either Flutter or Dart._
+
 ## Future Work
 
 - If package maintenance starts becoming a lot of effort maintaining two analysis files, consider creating a build
-  script to generate the YAML files.
+  script to generate, or lint, the YAML files as part of a `pre-commit` or `pre-push` hook.
