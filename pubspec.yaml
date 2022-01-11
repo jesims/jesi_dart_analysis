@@ -1,0 +1,8 @@
+name: jesi_dart_analysis
+description: A package providing lint rules for Dart and Flutter which are used at JESI
+version: 1.0.0
+homepage: https://github.com/jesims/jesi_dart_analysis
+publish_to: none
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
