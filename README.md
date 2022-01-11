@@ -77,8 +77,12 @@ linter:
 - Update the `CHANGELOG.md` accordingly
 - When updating linter rules, ensure the rule is changed in both `analysis_options.yaml` and
   `analysis_options.flutter.yaml`. _Unless the rule pertains exclusively to either Flutter or Dart._
+- After merging, create (and push) a new `tag` for the version
+  1. `git tag x.x.x`
+  1. `git push -u --tags`
 
 ## Future Work
 
+- Consider CI/CD Automation
 - If package maintenance starts becoming a lot of effort maintaining two analysis files, consider creating a build
   script to generate, or lint, the YAML files as part of a `pre-commit` or `pre-push` hook.
