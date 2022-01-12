@@ -1,0 +1,6 @@
+.dart_tool/
+/.idea/ClojureProjectResolveSettings.xml
+/.idea/libraries/
+/.idea/workspace.xml
+.packages
+pubspec.lock
