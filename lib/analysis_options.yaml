@@ -15,6 +15,7 @@ linter:
 analyzer:
   # Note: Ensure excludes are replicated in `analysis_options.flutter.yaml`
   exclude:
+    - '**/*.freezed.dart'
     - '**/*.g.dart'
     - '**/*.reflectable.dart'
     - '**/__generated__/**'
