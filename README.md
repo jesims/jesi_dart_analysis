@@ -15,8 +15,8 @@ To use the linting options, add a dependencies into your `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
-  lints: '>=1.0.1 <2.0.0' # Add for Dart
-  # flutter_lints: '>=1.0.0 <2.0.0' # Add for Flutter
+  lints: ^1.0.1 # Add for Dart
+  # flutter_lints: ^1.0.0 # Add for Flutter
   jesi_dart_analysis:
     git:
       url: https://github.com/jesims/jesi_dart_analysis.git
@@ -42,27 +42,30 @@ level.
 
 ### Line Level
 
-To suppress a specific lint rule for a specific line of code, use an `ignore` comment directly above the line:
+To suppress a specific lint rule for a specific line of code, use an `ignore` comment directly above the line.
+[Read More](https://dart.dev/guides/language/analysis-options#suppressing-rules-for-a-line-of-code)
 
 ```dart
-// ignore: prefer_single_quotes
-print("Ignoring standard for this scenario. 'As an Example'");
+// ignore: uri_does_not_exist
+import '/__generated__/main.gql.dart';
+import 'collection_extensions.dart';
 ```
 
 ### File Level
 
-To suppress a specific lint rule of a specific file, use an `ignore_for_file` comment at the top of the file:
+To suppress a specific lint rule of a specific file, use an `ignore_for_file` comment at the top of the file.
+[Read More](https://dart.dev/guides/language/analysis-options#suppressing-rules-for-a-file)
 
 ```dart
-// ignore_for_file: prefer_single_quotes
-
-print('This line is fine');
-print("This line voids standards");
+// ignore_for_file: uri_does_not_exist
+import '/__generated__/main.gql.dart';
+import '/__generated__/another.gql.dart';
 ```
 
 ### Project Level
 
-To suppress a specific lint rule for an entire project, modify `analysis_options.yaml`:
+To suppress a specific lint rule for an entire project, modify `analysis_options.yaml`.
+[Read More](https://dart.dev/guides/language/analysis-options#disabling-individual-rules)
 
 ```yaml
 include: package:jesi_dart_analysis/analysis_options.yaml

@@ -9,3 +9,4 @@
   - Flutter
     - [ ] Updated; OR
     - [ ] Not Applicable
+- [ ] After merge, updated and pushed new git version tag
