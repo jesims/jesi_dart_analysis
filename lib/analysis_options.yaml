@@ -7,6 +7,7 @@ linter:
     - await_only_futures
     - curly_braces_in_flow_control_structures
     - omit_local_variable_types
+    - prefer_interpolation_to_compose_strings
     - prefer_single_quotes
     - require_trailing_commas
     - unawaited_futures
