@@ -1,3 +1,10 @@
+## 1.3.0
+
+Added:
+
+* [`always_declare_return_types`](https://dart-lang.github.io/linter/lints/always_declare_return_types.html) rule
+* [`always_put_required_named_parameters_first`](https://dart-lang.github.io/linter/lints/always_put_required_named_parameters_first.html) rule
+
 ## 1.2.0
 
 Added:
