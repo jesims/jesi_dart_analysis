@@ -3,6 +3,8 @@ include: package:flutter_lints/flutter.yaml
 linter:
   # Note: Ensure rules are replicated where applicable in `analysis_options.yaml`
   rules:
+    - always_declare_return_types
+    - always_put_required_named_parameters_first
     - avoid_void_async
     - await_only_futures
     - curly_braces_in_flow_control_structures
