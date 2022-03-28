@@ -23,3 +23,7 @@ analyzer:
     - '**/*.g.dart'
     - '**/*.reflectable.dart'
     - '**/__generated__/**'
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true

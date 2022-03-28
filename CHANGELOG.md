@@ -1,3 +1,13 @@
+## 2.0.0
+
+Breaking:
+
+* Added [Stricter Type Checks](https://dart.dev/guides/language/analysis-options#enabling-additional-type-checks) for
+  Dart 2.16+:
+  * strict-casts:true
+  * strict-inference:true
+  * strict-raw-types:true
+
 ## 1.3.0
 
 Added:
