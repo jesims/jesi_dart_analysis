@@ -1,3 +1,15 @@
+## 2.1.0
+
+* Added
+  * Dart:
+    - [`prefer_const_constructors`](https://dart-lang.github.io/linter/lints/prefer_const_constructors.html)
+    - [`prefer_const_declarations`](https://dart-lang.github.io/linter/lints/prefer_const_declarations.html)
+    - [`prefer_constructors_over_static_methods`](https://dart-lang.github.io/linter/lints/prefer_constructors_over_static_methods.html)
+    - [`use_named_constants`](https://dart-lang.github.io/linter/lints/use_named_constants.html)
+  * Flutter:
+    - [`prefer_constructors_over_static_methods`](https://dart-lang.github.io/linter/lints/prefer_constructors_over_static_methods.html)
+    - [`use_named_constants`](https://dart-lang.github.io/linter/lints/use_named_constants.html)
+
 ## 2.0.0
 
 Breaking:
